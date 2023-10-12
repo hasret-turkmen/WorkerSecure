@@ -217,6 +217,10 @@ html {
   border-radius: 50%;
 }
 
+.Proposal{
+  font-size: 4rem;
+}
+
 .customer-name {
   font-size: 2rem;
   font-weight: 700;
