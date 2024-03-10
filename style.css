@@ -121,7 +121,7 @@ html {
   text-shadow: 0.3rem 0.3rem 0.3rem #888;
   color: #095838;
   background-color: #ffffff;
-  width: 76rem;
+  width: 70rem;
   text-align: center;
   padding: 0.8rem 1.6rem;
   border-radius: 0.8rem;
@@ -217,8 +217,24 @@ html {
   border-radius: 50%;
 }
 
-.Proposal{
-  font-size: 5rem;
+
+.Proposal {
+  background-color: #005A9C; 
+  color: #ffffff;
+  text-decoration: none; 
+  padding: 15px 30px; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+  transition: all 0.3s ease; 
+  font-weight: bold; 
+  font-size: 1.2em; 
+  width: 60%; 
+  max-width: 300px; 
+}
+
+.Proposal:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3); 
 }
 
 .customer-name {
@@ -234,15 +250,15 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 5rem 0;
+  padding: 12rem 0;
   background-color: #d9f0d4;
 }
 
 .team-wrapper {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 70%;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Align items in the center */
+  gap: 20px; /* Increase space between the items */
 }
 
 .team-member {
@@ -621,10 +637,6 @@ html {
   .team-member {
     margin: 5rem 0;
   }
-
-
-
-
   .form-container {
     background-color: transparent;
     box-shadow: none;
