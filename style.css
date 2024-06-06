@@ -165,8 +165,8 @@ html {
 }
 
 .customer {
-  width: 35rem;
-  height: 50rem;
+  width: 25rem;
+  height: 25rem;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
